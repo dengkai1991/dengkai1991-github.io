@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title><![CDATA[index]]></title>
+    <url>%2F2019%2F06%2F25%2Findex%2F</url>
+    <content type="text"></content>
+  </entry>
+  <entry>
+    <title><![CDATA[test]]></title>
+    <url>%2F2019%2F06%2F25%2Ftest%2F</url>
+    <content type="text"></content>
+      <tags>
+        <tag>test</tag>
+      </tags>
+  </entry>
+</search>
