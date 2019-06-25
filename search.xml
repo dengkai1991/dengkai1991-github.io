@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[index]]></title>
+    <title><![CDATA[java 入门]]></title>
     <url>%2F2019%2F06%2F25%2Findex%2F</url>
-    <content type="text"></content>
+    <content type="text"><![CDATA[FirstSecond]]></content>
+      <categories>
+        <category>java</category>
+      </categories>
+      <tags>
+        <tag>java spring</tag>
+      </tags>
   </entry>
   <entry>
     <title><![CDATA[test]]></title>
