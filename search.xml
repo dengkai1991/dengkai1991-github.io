@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[java 入门]]></title>
+    <title><![CDATA[Nginx 基本配置]]></title>
     <url>%2F2019%2F06%2F25%2Findex%2F</url>
-    <content type="text"><![CDATA[FirstSecond]]></content>
+    <content type="text"><![CDATA[配置结构1234567891011&#123; main events : &#123;&#125; http : &#123; main server : &#123; main location : &#123;&#125; &#125; &#125;&#125; main全局块：配置影响nginx全局的指令。一般有运行nginx服务器的用户组，nginx进程pid存放路径，日志存放路径，配置文件引入，允许生成worker process数等。 events块：配置影响nginx服务器或与用户的网络连接。有每个进程的最大连接数，选取哪种事件驱动模型处理连接请求，是否允许同时接受多个网路连接，开启多个网络连接序列化等。 http块：可以嵌套多个server，配置代理，缓存，日志定义等绝大多数功能和第三方模块的配置。如文件引入，mime-type定义，日志自定义，是否使用sendfile传输文件，连接超时时间，单连接请求数等。 server块：配置虚拟主机的相关参数，一个http中可以有多个server。 location块：配置请求的路由，以及各种页面的处理情况。 不同模块指令关系：server继承main；location继承server；upstream既不会继承指令也不会被继承，它有自己的特殊指令，不需要在其他地方的应用 详细解释]]></content>
       <categories>
-        <category>java</category>
+        <category>linux</category>
       </categories>
       <tags>
-        <tag>java spring</tag>
+        <tag>nginx</tag>
       </tags>
   </entry>
   <entry>
